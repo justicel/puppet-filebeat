@@ -176,3 +176,7 @@ filebeat:
       <%- if @close_timeout -%>
       close_timeout: <%= @close_timeout %>
       <%- end -%>
+
+      <%- if @harvester_limit -%>
+      harvester_limit: <%= @harvester_limit %>
+      <%- end -%>
